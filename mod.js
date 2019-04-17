@@ -19,7 +19,7 @@ $(document).ready(function() {
   });
 
  
-  var x = $('#history').clone().prop({'id' : 'history-clone'})
+  var x = $('#history').clone().prop({'id' : 'history-clone'});
     $('#history').after(x)
     /*x[0].innerText = 'suarez'* JS version and jQuery version is below*/
 
@@ -30,7 +30,7 @@ $(document).ready(function() {
     var ul = document.querySelector('.navbar');
     var li = document.createElement('li');
     var anchor = document.createElement('a');
-    anchor.setAttribute('href','#history-clone')
+    anchor.setAttribute('href','#history-clone');
     anchor.textContent = 'history-clone';
 
     li.appendChild(anchor);
